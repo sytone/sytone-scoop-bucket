@@ -1,0 +1,34 @@
+{
+    "homepage": "https://store.steampowered.com",
+    "hash": "",
+    "bin": "Steam.exe",
+    "extract_dir": "",
+    "url": "https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe#/dl.7z",
+    "depends": "",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://store.steampowered.com/legal/"
+
+    },
+    "version": "nightly",
+    "description": "Steam. The ultimate entertainment platform",
+    "changelog": "https://store.steampowered.com/oldnews/?feed=steam_client"  ,
+    "notes": [
+        "Changing Steam library folder is HIGHLY recommended."
+    ] ,
+    "pre_install": "Remove-AppDirItem '$*'",
+    "uninstaller":{
+        "file":"uninstall.exe",
+    "args":"/S"    
+},
+"shortcuts":[
+    "Steam.exe",    "Steam",    "-dev"
+],
+"persist":[
+    "skins","steamapps","userdata"
+]
+
+
+
+}
+  
