@@ -8,7 +8,7 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add sytone-scoop-bucket https://github.com/sytone/sytone-scoop-bucket`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add sytone https://github.com/sytone/sytone-scoop-bucket`. To install, do `scoop install <manifest>`.
 
 How do I contribute new manifests?
 ----------------------------------
