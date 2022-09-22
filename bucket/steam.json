@@ -1,6 +1,5 @@
 {
     "homepage": "https://store.steampowered.com",
-    "hash": "",
     "bin": "Steam.exe",
     "extract_dir": "",
     "url": "https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe#/dl.7z",
