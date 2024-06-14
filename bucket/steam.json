@@ -3,7 +3,6 @@
     "bin": "Steam.exe",
     "extract_dir": "",
     "url": "https://steamcdn-a.akamaihd.net/client/installer/SteamSetup.exe#/dl.7z",
-    "depends": "",
     "license": {
         "identifier": "Freeware",
         "url": "https://store.steampowered.com/legal/"
